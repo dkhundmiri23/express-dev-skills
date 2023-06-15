@@ -10,7 +10,7 @@ const skills = [
   };
 
   function getOne (id) {
-    id = parseint(id);
+    id = parseInt(id);
     return skills.find(skill => skill.id === id); 
   }
 	
